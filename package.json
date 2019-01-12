@@ -1,0 +1,17 @@
+{
+  "name": "shoppingcart",
+  "version": "1.0.0",
+  "description": "My shop",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "shopping"
+  ],
+  "author": "Quan Chau",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
