@@ -1,5 +1,5 @@
 let state = {
-        activepage : 'home',
+        activePage : 'home',
         productDetail : null,
         shoppingCart: null,
         products : []

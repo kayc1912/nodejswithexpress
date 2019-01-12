@@ -1,13 +1,25 @@
-<head>
-    <title>
-        SIMPLE PAGE
-    </title>
-    <body>
-        WELCOME
-        <button onclick="stateChange()">State Change</button>
-    </body>
+<html>
+        <head>
+                <title>
+                    SIMPLE PAGE
+                </title>
+                <style>
+                 li {
+                        list-style : none;
+                        display : inline-block;
+                        padding: 20px;
+                    }
+                </style>
+        </head>
+        <body>
+                        <div id="root"> </div> <!--this element is used to render dynamic data from server -->
+                        <script type="module"  src="./js/main.js" > </script>
+                        <script type="module" src="./js/store.js"> </script> 
+         </body>
+            
 
 
-    <script type="module"  src="./js/main.js" > </script>
-    <script type="module" src="./js/store.js"> </script>
-</head>
+</html>
+
+
+   
